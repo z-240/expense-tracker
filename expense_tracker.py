@@ -5,7 +5,7 @@ def show_menu(): # we use a function rather than multiple prints so this can be 
     print("3. Show total spending")
     print("4. Exit")
 
-    while True: # this creates an infinite loop that will keep showing the menu until the user chooses to exit.
+while True: # this creates an infinite loop that will keep showing the menu until the user chooses to exit.
         show_menu() # call the function to display the menu options
         choice = input("Choose an option: ")
 
